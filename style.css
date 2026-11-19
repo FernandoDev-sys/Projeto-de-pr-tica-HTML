@@ -19,13 +19,23 @@ body{
    
 }
 
+.catalogo_animal{
+  background-color: #D5EFEA;
+  color:rgb(17, 68, 209);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
 .meu_catalogo {
    display: flex;
    justify-content: space-between;
    color: #ffffff;
-   background-color: rgb(6, 40, 133);
-   padding: 10px;
-   margin: 5;
+   background-color: #0B253C;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 5px;
 }
  
 .meu_catalogo nav {
@@ -37,7 +47,7 @@ body{
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
-    padding: 10px;
+    padding: 8px;
 }
 
 main {
@@ -45,21 +55,48 @@ main {
     margin: 0 auto;
 }
 
-h2 {
-  color: green;
-}
+
 article {
-   border: 3px solid black;
+   border: 1px solid #c9c8c8;
    border-radius: 10px;
-   padding: 16px;
-   margin-bottom: 15px;
-   max-width: 100%;
-   box-sizing: border-box;
-   flex-wrap: warp;
+   padding: 5px;
+   margin: 10px; 
    
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.campo input, .campo select, .campo textarea {
+   display: block;
+   width: 100%;
+   padding: 15px;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+   font: inherit;
+
+}
+
+fieldset {
+   padding: 10px;
+   margin: 10px;
+   width: 100%;
+   border: 1px solid #cccccc;
+   border-radius: 10px;
+   font: inherit;
+}
+
+.final{
+  background-color:  #0B253C;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+}
+
+footer{
+  padding: 20px;
+  font-weight: bold;
 }
